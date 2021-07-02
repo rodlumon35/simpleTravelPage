@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+header {
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+header ul li {
+  font-size: 1.1em;
+}
+
+header.sticky {
+  background-color: rgb(250, 253, 255);
+  box-shadow: -1px 6px 23px -3px rgba(0, 0, 0, 0.39);
+}
+
+header.permanent {
+  background-color: rgb(250, 253, 255);
+  box-shadow: -1px 6px 23px -3px rgba(0, 0, 0, 0.39);
+  position: static;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header .navbar {
+  background-color: transparent !important;
+}
+
+.search-bar {
+  border: 1px solid rgb(0, 0, 0);
+  width: 30vw;
+  box-sizing: content-box;
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
+}
+
+.search-bar input[type="text"] {
+  background: transparent !important;
+  border: 0;
+  width: 28vw;
+  box-sizing: border-box;
+}
+
+.search-bar input[type="text"]:focus {
+  outline: none;
+}
+
+#banner {
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#banner-2 {
+  background-image: url(../img/bg-banner-2.jfif);
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#banner-3 {
+  background-image: url(../img/bg-banner-3.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#banner-4 {
+  background-image: url(../img/bg-banner-4.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#content {
+  max-width: 900px;
+}
+
+#banner #content h1 {
+  text-shadow: 2px 2px #000000b0;
+}
+
+#banner-2 #content h1 {
+  text-shadow: 2px 2px #000000b0;
+}
+
+#banner-3 #content h1 {
+  text-shadow: 2px 2px #000000b0;
+}
+
+#banner-4 #content h1 {
+  text-shadow: 2px 2px #000000b0;
+}
+
+#content a {
+  font-size: 2em;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+#kiyomizudera-temple {
+  background-image: url(../img/kiyomizudera-temple-japan.jpg);
+  background-size: cover;
+  height: 100%;
+  min-height: 15em;
+  text-shadow: 2px 2px #000000b0;
+}
+
+#shogunzuka-seiryuden-temple {
+  background-image: url(../img/Shogunzuka\ Seiryuden\ Temple.jpg);
+  background-size: cover;
+  height: 15em;
+  min-height: 5em;
+  text-shadow: 2px 2px #000000b0;
+}
+
+#kenninji-temple {
+  background-image: url(../img/Kenninji-Temple.jpg);
+  background-size: cover;
+  height: 15em;
+  min-height: 5em;
+  text-shadow: 2px 2px #000000b0;
+}
+
+#murinan-garden {
+  background-image: url(../img/Murinan-Garden.jpg);
+  background-size: cover;
+  height: 15em;
+  min-height: 5em;
+  text-shadow: 2px 2px #000000b0;
+}
+
+#nishiki-market {
+  background-image: url(../img/Nishiki-Market.jpg);
+  background-size: cover;
+  height: 15em;
+  min-height: 5em;
+  text-shadow: 2px 2px #000000b0;
+}
+
+.activity {
+  transition: 0.5s;
+  height: 10em;
+  max-height: 10em;
+}
+
+.activity:hover {
+  cursor: pointer;
+  background-color: rgb(240, 55, 55);
+  color: rgb(255, 255, 255);
+}
+
+tbody tr td {
+  transition: all 0.2s ease-in-out 0s;
+}
+
+tbody tr td:hover {
+  cursor: pointer;
+  border-left: 3px solid #38a19c;
+  transform: translateY(-1px);
+  background-color: rgba(52, 187, 142, 0.103);
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    width: 480px;
+    height: 270px;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-item img {
+    width: 384px;
+    height: 216px;
+  }
+  #banner-4 #content h1 {
+    font-size: 3em;
+  }
+}
